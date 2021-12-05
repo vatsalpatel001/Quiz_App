@@ -10,9 +10,15 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
+let questions=[];
+
 function SuffleQuest(){
 let S_arr = (r) =>{for(var f,n,o=r.length;0!==o;)n=Math.floor(Math.random()*o),f=r[--o],r[o]=r[n],r[n]=f;return r};
+ // questions=[...questions_master];
+ questions=JSON.parse(JSON.stringify(questions_master));
+
   for (let i=0;i<questions.length;i++){
+    questions[i].options.push(questions[i].answer);
     questions[i].options=S_arr(questions[i].options);
   }
   questions=S_arr(questions);
