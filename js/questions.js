@@ -1,7 +1,6 @@
 // creating an array and passing the number, questions, options, and answers
 let questions_master = [
-    {
-    
+    {    
     question: "The cyclist ___ won the race trained hard.",
     answer: "who",
     options: [
@@ -9,64 +8,127 @@ let questions_master = [
       "which",
       "when",
     ]
-  },
-    {
-    
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+  },{    
+    question: "The pants ___ I bought yesterday are already stained.",
+    answer: "that",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet"
+      "who",
+      "which",
+      "when",
+    ]
+  },{    
+    question: "The four team leaders, ___  the committee selects, will be at tomorrow’s meeting.",
+    answer: "whoever",
+    options: [
+      "who",
+      "which",
+      "when",
+    ]
+  },{    
+    question: "Spaghetti, ___ we eat at least twice a week, is one of my family’s favorite meals.",
+    answer: "which",
+    options: [
+      "who",
+      "whoever",
+      "when",
+    ]
+  },{    
+    question: "Where did you buy the dress ___ you wore last week?",
+    answer: "that",
+    options: [
+      "who",
+      "whoever",
+      "when",
+    ]
+  },{    
+    question: "The book, ___ it was finally returned, was torn and stained.",
+    answer: "when",
+    options: [
+      "who",
+      "whoever",
+      "that",
+    ]
+  },{    
+    question: "The store on the corner, ___ we usually buy all of our art supplies, burned to the ground.",
+    answer: "where",
+    options: [
+      "who",
+      "whoever",
+      "that",
+    ]
+  },{    
+    question: "The festival, ___ lasted all day, ended with a banquet.",
+    answer: "which",
+    options: [
+      "who",
+      "whoever",
+      "that",
+    ]
+  },{    
+    question: "I am looking for someone ___ can watch my dog while I go on vacation.",
+    answer: "who",
+    options: [
+      "which",
+      "whoever",
+      "that",
+    ]
+  },{    
+    question: "The police needed details ___ could help identify the robber.",
+    answer: "that",
+    options: [
+      "which",
+      "whoever",
+      "who",
+    ]
+  },{    
+    question: "I’d like to take you to a café ___ serves excellent coffee.",
+    answer: "which",
+    options: [
+      "that",
+      "whoever",
+      "who",
+    ]
+  },{    
+    question: "The clubhouse, in ___ the dance was held, housed about 200 people.",
+    answer: "which",
+    options: [
+      "that",
+      "whoever",
+      "who",
+    ]
+  },{    
+    question: "You can choose one person, ___ you like, to share the cruise with you.",
+    answer: "whomever",
+    options: [
+      "that",
+      "which",
+      "who",
+    ]
+  },{    
+    question: "I saw the shoes ___ you bought last week on sale for less this week.",
+    answer: "that",
+    options: [
+      "whomever",
+      "which",
+      "who",
+    ]
+  },{    
+    question: "The winners, ___ known, will receive money and other prizes.",
+    answer: "when",
+    options: [
+      "whomever",
+      "which",
+      "who",
+    ]
+  },{    
+    question: "The baby, ___ nap had been interrupted, wailed loudly.",
+    answer: "whose",
+    options: [
+      "whomever",
+      "which",
+      "who",
     ]
   },
-    {
-    
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
-    options: [
-     
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
-    ]
-  },
-    {
-    
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
-    options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language"
-     
-    ]
-  },
-    {
-    
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
-    ]
-  },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
 ];
 
 
