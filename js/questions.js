@@ -128,6 +128,62 @@ let questions_master = [
       "which",
       "who",
     ]
+  },{    
+    question: "___ cannot be cured must be endured.",
+    answer: "what",
+    options: [
+      "whomever",
+      "which",
+      "whatever",
+    ]
+  },{    
+    question: "She found ___ she was searching for.",
+    answer: "what",
+    options: [
+      "whomever",
+      "which",
+      "whatever",
+    ]
+  },{    
+    question: "___ I have decided,I have decided.",
+    answer: "what",
+    options: [
+      "whomever",
+      "which",
+      "whatever",
+    ]
+  },{    
+    question: "I will do ___ I want to do.",
+    answer: "what",
+    options: [
+      "whomever",
+      "which",
+      "whatever",
+    ]
+  },{    
+    question: "___ is done cannot be undone.",
+    answer: "what",
+    options: [
+      "whomever",
+      "whatever",
+      "who",
+    ]
+  },{    
+    question: "I wouln'd hear ___ she whispered.",
+    answer: "what",
+    options: [
+      "that",
+      "whatever",
+      "who",
+    ]
+  },{    
+    question: "___ he does,he does well.",
+    answer: "whatever",
+    options: [
+      "what",
+      "which",
+      "who",
+    ]
   },
 ];
 
